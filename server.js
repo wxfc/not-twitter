@@ -1,7 +1,7 @@
-const express = requires('express');
-const serveStatic = requires('serve-statis');
-const history = requires('connect-history-api-fallback');
-const enforce = requires('express-sslify');
+const express = require('express');
+const serveStatic = require('serve-statis');
+const history = require('connect-history-api-fallback');
+const enforce = require('express-sslify');
 
 const app = express();
 
